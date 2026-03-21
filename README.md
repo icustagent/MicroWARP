@@ -28,7 +28,7 @@ You can seamlessly replace your existing WARP proxy. Just map port `1080` and gi
 ```yaml
 vservices:
   microwarp:
-    image: ghcr.io/ccbkkb/MicroWARP:latest
+    image: ghcr.io/ccbkkb/microwarp:latest
     container_name: microwarp
     restart: always
     ports:
@@ -80,7 +80,7 @@ Zero configuration required. On the first run, MicroWARP will automatically regi
 ```yaml
 services:
   microwarp:
-    image: ghcr.io/ccbkkb/MicroWARP:latest
+    image: ghcr.io/ccbkkb/microwarp:latest
     container_name: microwarp
     restart: always
     ports:
