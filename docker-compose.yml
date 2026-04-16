@@ -20,10 +20,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "0.50"
-          memory: 512M
-        reservations:
-          memory: 256M
+          cpus: "2.00"
+          memory: 2G
 
 volumes:
   microwarp:
