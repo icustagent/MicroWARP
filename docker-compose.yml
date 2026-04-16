@@ -20,8 +20,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "2.00"
-          memory: 2G
+          cpus: "1.00"
+          memory: 1G
 
 volumes:
   microwarp:
