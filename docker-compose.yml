@@ -19,7 +19,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "1.00"
+          cpus: "0.50"
           memory: 1G
     networks:
       - microwarp
